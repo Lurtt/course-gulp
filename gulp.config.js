@@ -1,3 +1,11 @@
-/**
- * Created by Lurtt on 10.06.15.
- */
+module.exports = function() {
+    var config = {
+        // all js to vet
+        alljs: [
+            './src/**/*.js',
+            './*.js'
+        ]
+    };
+
+    return config;
+};
